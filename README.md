@@ -8,7 +8,7 @@ I hold a degree in Mechanical engineering from The University of Nairobi. I am a
 ## 💡 Interests
 - **Web Development**: Exploring the latest trends...
 - **Tech Innovations**: Staying updated with advancements...
-- **Open-Source Contributions: Actively contributing to open-source projects and collaborating with developers worldwide.
+- **Open-Source Contributions**: Actively contributing to open-source projects and collaborating with developers worldwide.
 - **AI and Machine Learning**: Exploring the possibilities of artificial intelligence and machine learning in software development.
 - **DevOps and Automation**: Passionate about improving workflows through CI/CD pipelines and automation tools.
 - **Algorithm Optimization**: Constantly seeking ways to optimize code and improve performance.
