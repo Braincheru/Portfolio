@@ -1,0 +1,50 @@
+footer {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    gap: 30px;
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icon {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ddd; /* Light gray for the default icon color */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects for icon and text */
+.contact-container a:hover {
+    color: #ffd700; /* Change text color on hover */
+}
+
+.contact-icon:hover {
+    color: #ffd700; /* Gold color on hover */
+    transform: scale(1.2); /* Slightly larger on hover */
+}
+
+.container {
+    text-align: right;
+}
+
+footer p {
+    font-size: 12px;
+}

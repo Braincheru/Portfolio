@@ -1,0 +1,37 @@
+.portfolio-header {
+    background-image: url('pexels-amina-79379327-10486451.jpg'); /* Replace with your background image */
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #fff; /* White text color to stand out against the background */
+    padding: 40px; /* Adjust padding as needed */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 5%; /* Make the profile photo circular */
+    margin-right: 20px; /* Space between image and text */
+    width: 15vw; /* Image width is 15% of the viewport width */
+    max-width: 150px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+
+
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2em; /* Adjust font size as needed */
+}
+
+.header-text p {
+    margin: 10px 0 0;
+    font-size: 1.2em; /* Adjust font size as needed */
+}

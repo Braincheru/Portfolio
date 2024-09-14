@@ -1,0 +1,105 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Technologies section styling */
+.technologies {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+/* Heading styling */
+.technologies h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Flexbox grid for tiles */
+.tech-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Wraps to new line if screen size is small */
+}
+
+/* Tech tile styling */
+.tech-tile {
+    background-color: #635151;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.tech-tile:hover {
+    transform: translateY(-5px); /* Hover effect to lift the tile */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Tech icon styling */
+.tech-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Colorful icons */
+.html-icon {
+    color: #e34c26;
+}
+
+.css-icon {
+    color: #1572b6;
+}
+
+.js-icon {
+    color: #f0db4f;
+}
+
+.python-icon {
+    color: #3776ab;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .tech-grid {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tech-tile {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tech-icon {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-tile {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tech-icon {
+        font-size: 25px;
+    }
+}
